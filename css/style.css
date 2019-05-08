@@ -1,7 +1,10 @@
 /* CSS here */
+body{background:#F4F5F6;}
+
 header{
 	position:relative; 
 	z-index:2;
+	
 }
 .main-logo{
 	background:red; 
@@ -13,8 +16,9 @@ header{
 
 .main-logo img{width:170px; padding-left:25px;}
 .main-logo i{
-	display:none;
 	
+	position:relative;
+	top:3px;
     font-size: 24px;
     color: white;
     cursor:pointer;
@@ -22,12 +26,32 @@ header{
 .main-logo .right{
 	position: absolute;
     right: 20px;
-    top: 14px;
+    top: 10px;
+}
+
+header .right a{
+ padding:5px 10px;
+ cursor:pointer;
+ display:inline-block;
+ text-transform: uppercase;
+ font-weight:bold;
+ font-size:14px;
+}
+
+header .right a:first-child{
+color:white;
+}
+
+header .right a:last-of-type{
+	color:red;
+	background:white;
+	margin-right:25px;
 }
 
 nav{
-	margin-top:55px;
+	margin-top:50px;
 	text-align: center; 
+	background:white;
 }
 
 nav ul{
@@ -35,6 +59,7 @@ nav ul{
 	justify-content: space-around; 
 	border-bottom:1px solid #ccc; 
 	padding:10px 0;
+	margin-bottom:0;
 }
 
 nav li{
@@ -47,7 +72,7 @@ nav li{
 
 nav li:last-child{border-right:0px;}
 
-
+main{background:white; padding-top:25px;}
 h3.section-top{
 	text-transform: uppercase;
 	color:gray;
@@ -173,9 +198,12 @@ h3.red{color:red; margin-top:20px;}
 .social{text-align: right;}
 .social i{font-size:28px; color:gray; margin:0 5px;}
 
-footer{border-top:1px solid #ccc; margin-top:25px;}
 footer img{max-width:200px;}
-
+footer .container{
+	background:white;
+	padding-top:25px;
+	border-top:1px solid #ccc; 
+}
 .f-brand span{vertical-align: bottom; color:gray; font-size:14px;}
 
 footer .row{padding:20px 0;}
@@ -193,10 +221,14 @@ footer ul li:last-child:after{
 	content:"";
 }
 
+@media screen and (max-width: 1020px) {
+	nav{display:none;}
+}
+
 @media screen and (max-width: 720px) {
 	.social{text-align: left; margin-top:20px;}
-	nav{display:none;}
-	main{margin-top:60px;}
+	
+	main{margin-top:50px; padding-top:15px;}
 	.main-logo img{width:150px; padding-left:0px;}
 	.main-logo i{display:inline-block;}
 }
