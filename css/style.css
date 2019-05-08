@@ -2,4 +2,35 @@
 
 body{}
 
-.row > div{height:10vh; border:1px solid red;}
+.row > div{min-height:10vh; border:1px solid red;}
+
+header{
+	text-align: center; 
+	position:relative; 
+	z-index:2;
+}
+.main-logo{
+	background:red; 
+	padding:10px;
+	position:fixed; 
+	width:100%;
+	top:0;
+}
+nav{margin-top:55px;}
+
+nav ul{
+	display:flex; 
+	justify-content: space-around; 
+	border-bottom:2px solid #ccc; 
+	padding:10px 0;
+}
+
+nav li{
+	cursor:pointer; 
+	border-right:1px solid #ccc; 
+	flex:1; 
+	padding:5px 0;
+	font-weight:700;
+}
+
+nav li:last-child{border-right:0px;}
