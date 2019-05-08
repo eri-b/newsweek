@@ -11,7 +11,7 @@ header{
 	padding:10px;
 	position:fixed; 
 	width:100%;
-	top:0;
+	top:0px;
 }
 
 .main-logo img{width:170px; padding-left:25px;}
@@ -58,7 +58,7 @@ nav ul{
 	display:flex; 
 	justify-content: space-around; 
 	border-bottom:1px solid #ccc; 
-	padding:10px 0;
+	padding:10px 0px;
 	margin-bottom:0;
 }
 
@@ -66,7 +66,7 @@ nav li{
 	cursor:pointer; 
 	border-right:1px solid #ccc; 
 	flex:1; 
-	padding:5px 0;
+	padding:5px 0px;
 	font-weight:700;
 }
 
@@ -79,7 +79,7 @@ h3.section-top{
 	font-weight: 700;
 	font-size:16px;
 }
-h2{font-size:19px; font-weight:700; margin:10px 0;}
+h2{font-size:19px; font-weight:700; margin:10px 0px;}
 
 .img-heading{position: relative;}
 .img-heading img{max-width:100%;}
@@ -95,7 +95,7 @@ h2{font-size:19px; font-weight:700; margin:10px 0;}
 }
 
 article{padding:15px 0;border-bottom:1px solid #ccc;}
-h3{font-weight:bold; font-size:17px;margin-bottom:0;}
+h3{font-weight:bold; font-size:17px;margin-bottom:0px;}
 p{font-size:14px;}
 
 .new-section{
@@ -105,7 +105,7 @@ p{font-size:14px;}
 }
 
 article.small img{float:left; margin-right:15px;}
-article.small p{margin-bottom:0;}
+article.small p{margin-bottom:0px;}
 
 .opinion article, .latest article{display:flex;}
 .opinion article > div:first-child{flex:0;}
@@ -139,7 +139,7 @@ h4{font-weight:bold; font-size:14px;}
 	font-size:15px;
 	background:gray;
 	padding:10px 15px;
-	margin:10px 0;
+	margin:10px 0px;
 }
 
 .latest .newsletter p{font-weight:bold;}
@@ -184,7 +184,7 @@ h3.red{color:red; margin-top:20px;}
 .sub > div:first-child{
 	border-bottom:1px solid #bbb;
 }
-.sub h3{margin-top:0; padding-top:0;}
+.sub h3{margin-top:0px; padding-top:0px;}
 .sub ul{list-style: disc outside none;}
 .sub > div > div{flex:1; padding:15px;}
 .sub a{display:inline-block;
@@ -196,7 +196,7 @@ h3.red{color:red; margin-top:20px;}
 	text-transform: uppercase;
 }
 .social{text-align: right;}
-.social i{font-size:28px; color:gray; margin:0 5px;}
+.social i{font-size:28px; color:gray; margin:0px 5px;}
 
 footer img{max-width:200px;}
 footer .container{
@@ -206,13 +206,13 @@ footer .container{
 }
 .f-brand span{vertical-align: bottom; color:gray; font-size:14px;}
 
-footer .row{padding:20px 0;}
+footer .row{padding:20px 0px;}
 footer .row:last-child{
 	border-top:1px solid #ccc;
 	
 }
 
-footer li{display:inline-block; color:gray;margin:0 5px; font-size:14px;}
+footer li{display:inline-block; color:gray;margin:0px 5px; font-size:14px;}
 footer ul li:after{
 	content:" | ";
 	padding-left:15px;
