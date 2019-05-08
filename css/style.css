@@ -2,7 +2,7 @@
 
 body{}
 
-.row > div{min-height:10vh; border:1px solid red;}
+/*.row > div{min-height:10vh; border:1px solid red;}*/
 
 header{
 	text-align: center; 
@@ -70,5 +70,95 @@ p{font-size:14px;}
 	border-bottom:1px solid #ccc;
 }
 
+article.small img{float:left; margin-right:15px;}
+article.small p{margin-bottom:0;}
 
+.opinion article, .latest article{display:flex;}
+.opinion article > div:first-child{flex:0;}
+.opinion article > div:last-child{flex:1;padding-left: 10px;}
+.opinion img{width:60px; border-radius:30px;}
+.opinion .aut{
+	font-weight:bold;
+	text-transform: uppercase; 
+	font-weight:700;
+	color:#555;
+	font-size:14px;
+	margin-bottom:0;
+}
+
+h4{font-weight:bold; font-size:14px;}
+
+.no-border{border:0px;}
+
+.latest article > div{flex:1;}
+.latest img{max-width:90%;}
+
+.latest .newsletter{
+	background:#eee;
+	border:1px solid #ccc;
+	padding:15px;
+}
+.latest .newsletter a{
+	color:white;
+	display:inline-block;
+	font-weight:bold;
+	font-size:15px;
+	background:gray;
+	padding:10px 15px;
+	margin:10px 0;
+}
+
+.latest .newsletter p{font-weight:bold;}
+
+.center{text-align:center; margin-top:20px;}
+
+.mag img{max-width:100%; display:block; margin-bottom:15px;}
+.mag div > a{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:16px;
+	padding:5px;
+}
+.mag div > a:first-child{
+	background:red;
+	color:white;
+}
+
+.mag div > a:last-child{
+	color:red;
+}
+
+.editors article, .slideshow article{border:0px;}
+.slideshow .img-text{font-size:24px; font-weight:bold;}
+
+h3.red{color:red; margin-top:20px;}
+
+.regions article{border:0px;}
+.regions h3{border-top:1px solid #ccc;padding-top:20px;}
+.regions .latest article > div:first-child{flex:.7;}
+.latest.most-read article > div:first-child{flex:.5;}
+.bottom h3{border:0px;}
+
+.sub{
+	background:#eee;
+}
+
+.sub > div {
+	display:flex;
+}
+
+.sub > div:first-child{
+	border-bottom:1px solid #bbb;
+}
+.sub h3{margin-top:0; padding-top:0;}
+.sub ul{list-style: disc outside none;}
+.sub > div > div{flex:1; padding:15px;}
+.sub a{display:inline-block;
+	margin:25px auto;
+	padding:10px 15px;
+	background:red;
+	color:white !important;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
